@@ -1,0 +1,15 @@
+generated: '2026-07-20'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: nibras.com
+  https: true
+  tls_version: TLSv1.2
+  cert_expires: Oct 22 23:27:38 2026 GMT
+  hsts: false
+domains:
+- domain: nibras.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: false
